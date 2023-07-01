@@ -7,9 +7,9 @@
   min-height: 840px;
   background: linear-gradient(
       180deg,
-      #242b33 11.98%,
+      $dark 11.98%,
       rgba(45, 52, 60, 0.38) 51.04%,
-      #242b33 92.19%
+      $dark 92.19%
     ),
     url("./../img/header/main-img.jpg");
 }
@@ -42,4 +42,3 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 98px;
 }
-
