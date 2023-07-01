@@ -47,3 +47,10 @@ a {
   /*prevent the screen reader to skip spaces between words*/
   white-space: nowrap;
 }
+
+.title-2{
+  font-size: 36px;
+  font-family: $font-accent;
+  color: $accent;
+  font-weight: 700;
+}
