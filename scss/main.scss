@@ -1,6 +1,9 @@
+//Abstracts
+@import "./abstracts/mixins";
+@import "./abstracts/vars";
+
 // Base
 @import "./base/reset";
-@import "./base/vars";
 @import "./base/base";
 
 //Layout

@@ -1,5 +1,16 @@
 .section-map {
+  position: relative;
   padding: 180px 0;
+
+  &::before {
+    content: "V";
+    z-index: -1;
+    right: calc(50% + 555px);
+    transform: translateX(50%);
+    line-height: 1.9;
+
+    @include decorNumber;
+  }
 }
 
 .section-map__title {

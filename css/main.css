@@ -217,7 +217,19 @@ a:hover {
 }
 
 .benefits {
+  position: relative;
   padding: 120px 0;
+}
+.benefits::after {
+  content: "II";
+  left: calc(50% + 555px);
+  transform: translateX(-50%);
+  line-height: 1.15;
+  position: absolute;
+  top: 0;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
 }
 
 .benefits__row {
@@ -239,6 +251,21 @@ a:hover {
   line-height: 1.35;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+}
+
+.appartments {
+  position: relative;
+}
+.appartments::before {
+  content: "III";
+  right: calc(50% + 555px);
+  transform: translateX(50%);
+  line-height: 1;
+  position: absolute;
+  top: 0;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
 }
 
 .appartments__title {
@@ -374,7 +401,20 @@ a:hover {
 }
 
 .video {
+  position: relative;
   text-align: center;
+  overflow: hidden;
+}
+.video::after {
+  content: "IV";
+  left: calc(50% + 555px);
+  transform: translateX(-50%);
+  line-height: 1.5;
+  position: absolute;
+  top: 0;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
 }
 
 .video__link {
@@ -410,7 +450,20 @@ a:hover {
 }
 
 .section-map {
+  position: relative;
   padding: 180px 0;
+}
+.section-map::before {
+  content: "V";
+  z-index: -1;
+  right: calc(50% + 555px);
+  transform: translateX(50%);
+  line-height: 1.9;
+  position: absolute;
+  top: 0;
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
 }
 
 .section-map__title {

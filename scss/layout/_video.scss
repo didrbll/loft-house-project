@@ -1,5 +1,17 @@
 .video {
+  position: relative;
   text-align: center;
+  overflow: hidden;
+
+  &::after {
+    content: "IV";
+
+    left: calc(50% + 555px);
+    transform: translateX(-50%);
+    line-height: 1.5;
+
+    @include decorNumber;
+  }
 }
 
 .video__link {
